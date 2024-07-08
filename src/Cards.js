@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Cards = ({ id, info, image, name, release, remove }) => {
-  const [readMore, setReadMore] = useState(false);
-  const desc = readMore ? info : `${info.substring(0, 200)}...`;
+  
+  const desc =  `${info.substring(0, 200)}...`;
   const navigateToPage = () => {
     window.location.href = 'https://www.imdb.com/?ref_=nv_home';
   };
