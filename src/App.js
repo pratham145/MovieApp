@@ -24,7 +24,7 @@ function App() {
       </div>
     );
   }
-
+//movieapp
   return (
     <>
       <h1 className="text-3xl font-bold text-center my-8">MOVIES</h1>
