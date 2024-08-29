@@ -16,7 +16,11 @@ CSS: Custom styling for a visually appealing and user-friendly design.
 Setup Instructions
 
 Clone the Repository: git clone <repository_URL>
+
 Navigate to the Project Directory: cd movie-app
+
 Install Dependencies: npm install
+
 Start the Development Server: npm start
+
 Open your browser and go to http://localhost:3000 to view the application.
